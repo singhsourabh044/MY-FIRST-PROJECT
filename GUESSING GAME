@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <link href="PROJECT.CSS" rel="stylesheet" />
+    <head>
+        <body>
+      <header>
+        <h1 class="head1">Type Your Favourite Number</h1>
+        <p class="between"><span>(BETWEEN 1 TO 20 NUMBERS)</span></p>
+        <button class="againbtn">TRY AGAIN!</button>
+        <div class="number">?</div>
+        
+      </header>
+    <main>
+      <section class = left >
+      <input type="number" class="inputbox" placeholder="Type Number here"/>
+      <button class="clickbtn">CHECKIT!</button>
+      </section>
+      
+      <section class = right>
+      <p class = "msg" >GUESS YOUR NUMBER</p>
+      <p class = "labelsocre">SCORE : <span class="score">20</span></p>
+      <p class = "labelhighscore">HIGHSCORE: <span class = highscore>0</span></section>
+      </p></main>
+      <script src="PROJECT.JS"></script>
+      
+    
+    </body>
+   
+  </html>
+</html>
